@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Public Site</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- section 1 -->
+    <div>
+      <div class="fixed w-full top-0 left-0 z-30 backdrop-blur-lg">
+        <nav
+          class="flex container mx-auto items-center justify-between px-5 py-3 lg:p-6 gap-5 lg:gap-20">
+          <div class="flex items-center flex-shrink-0 text-black mr-6">
+            <img src="./assets/brand.svg" class="h-[40px] xl:h-[50px]" />
+          </div>
+
+          <div
+            class="w-full flex-grow flex flex-nowrap items-center lg:w-auto pt-3">
+            <div class="flex flex-nowrap flex-grow font-body">
+              <a href="#"
+                class="block lg:inline-block lg:mt-0 text-primary-dark hover:text-black mr-4 xl:mr-6 text-sm xl:text-2xl whitespace-nowrap font-medium">
+                Jarvis
+              </a>
+              <a href="#"
+                class="block lg:inline-block lg:mt-0 text-primary-dark hover:text-black mr-4 xl:mr-6 text-sm xl:text-2xl whitespace-nowrap font-medium">
+                TDAG
+              </a>
+              <a href="#"
+                class="block lg:inline-block lg:mt-0 text-primary-dark hover:text-black mr-4 xl:mr-6 text-sm xl:text-2xl whitespace-nowrap font-medium">
+                Virtual Asset Manager
+              </a>
+              <a href="#"
+                class="block lg:inline-block lg:mt-0 text-primary-dark hover:text-black text-sm xl:text-2xl whitespace-nowrap font-medium">
+                Execution Engine
+              </a>
+            </div>
+          </div>
+        </nav></div>
+      <div class="relative h-auto overflow-hidden">
+        <div
+          class="relative container mx-auto py-32 lg:py-40 px-5 z-[1] text-center lg:text-left overflow-hidden">
+          <p class="font-headling text-3xl leading-[50px] bg-gradient-text">
+            We are a technology firm that helps investment management firms
+            revolutionize<br class="hidden lg:block" />
+            their approach to investment by seamlessly integrating artificial
+            intelligence,<br class="hidden lg:block" />
+            machine learning, and software development. Through this
+            technological<br class="hidden lg:block" />
+            transformation, we seek to have a direct impact on improving the
+            value
+            chain of<br class="hidden lg:block" />
+            investment management firms.
+          </p>
+          <button
+            class="font-body text-primary-dark capitalize mt-20 rounded-full bg-transparent py-[14px] px-[28px] border border-primary-dark font-normal">
+            learn more
+          </button>
+        </div>
+<!--        <img src="./assets/banner-ellipse.svg"-->
+<!--          class="absolute hidden lg:block h-auto w-72 lg:w-96 top-1/2 right-0 z-0" />-->
+<!--        <img src="./assets/banner-ellipse.svg"-->
+<!--          class="absolute w-64 -top-1/2 left-0 rotate-180 z-0" />-->
+        <img src="./assets/hero-banner-dot.svg"
+          class="absolute h-5/6 sm:h-1/2 lg:h-5/6 bottom-0 sm:bottom-1/4 lg:bottom-0 left-[60%] lg:right-0 z-0" />
+      </div>
+      <!-- section 2 -->
+      <div class="relative">
+        <img src="./assets/banner-ellipse.svg"
+          class="absolute lg:hidden h-auto w-72 lg:w-96 bottom-1/3 right-0 z-0" />
+        <div class="container mx-auto pt-20 pb-5 px-5 sm:px-0">
+          <div class="flex flex-col gap-3">
+            <p class="uppercase text-sm font-extrabold font-body">ecosystem</p>
+            <div>
+              <p class="capitalize text-6xl font-medium font-headling">
+                main sequence
+              </p>
+              <p
+                class="capitalize text-6xl font-medium font-headling bg-gradient-text leading-[64px]">
+                ecosystem
+              </p>
+            </div>
+            <p
+              class="font-body text-3xl font-semibold leading-8 text-medium-gray">
+              A modular approach that brings a direct impact exactly <br />
+              where you need it the most
+            </p>
+          </div>
+        </div></div>
+      <!-- section 3 -->
+      <div class="container mx-auto pb-20 px-5 sm:px-0 lg:pb-40">
+        <div class="my-10 overflow-x-scroll no-scrollbar">
+          <ul class="flex flex-nowrap -mb-px text-sm font-medium text-center"
+            id="default-tab"
+            data-tabs-toggle="#default-tab-content" role="tablist">
+            <li class="me-2" role="presentation">
+              <button
+                class="font-body default-tab-btn inline-block p-4 border-b-2 whitespace-nowrap rounded-t-lg"
+                id="profile-tab" data-tabs-target="#profile"
+                type="button" role="tab" aria-controls="profile"
+                aria-selected="false">
+                Jarvis
+              </button>
+            </li>
+            <li class="me-2" role="presentation">
+              <button
+                class="font-body default-tab-btn inline-block p-4 border-b-2 whitespace-nowrap rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                id="dashboard-tab" data-tabs-target="#dashboard" type="button"
+                role="tab" aria-controls="dashboard"
+                aria-selected="false">
+                TDAG
+              </button>
+            </li>
+            <li class="me-2" role="presentation">
+              <button
+                class="font-body default-tab-btn inline-block p-4 border-b-2 whitespace-nowrap rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                id="settings-tab" data-tabs-target="#settings" type="button"
+                role="tab" aria-controls="settings"
+                aria-selected="false">
+                Virtual Asset Manager
+              </button>
+            </li>
+            <li role="presentation">
+              <button
+                class="font-body default-tab-btn inline-block p-4 border-b-2 whitespace-nowrap rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                id="contacts-tab" data-tabs-target="#contacts" type="button"
+                role="tab" aria-controls="contacts"
+                aria-selected="false">
+                Execution Engine
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div id="default-tab-content" class="font-body">
+          <div class="hidden"
+            id="profile" role="tabpanel"
+            aria-labelledby="profile-tab">
+            <div class="grid sm:grid-cols-2 gap-10 lg:gap-20">
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">01.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Software
+                    Development</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">A unified framework to
+                  integrate monitor and
+                  train and serve
+                  in scale advanced machine learning and artificial intelligence
+                  models</div>
+              </div>
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">02.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Machine
+                    Learning
+                    <span class="opacity-20">and</span> AI Research</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">A unified framework to
+                  integrate monitor and
+                  train and serve
+                  in scale advanced machine learning and artificial intelligence
+                  models</div>
+              </div>
+            </div>
+          </div>
+          <div class="hidden"
+            id="dashboard" role="tabpanel"
+            aria-labelledby="dashboard-tab">
+            <div class="grid sm:grid-cols-2 gap-10 lg:gap-20">
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">01.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Software
+                    Development</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">Transform investment
+                  policies into automatic data pipelines</div>
+              </div>
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">02.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Machine
+                    Learning
+                    <span class="opacity-20">and</span> AI Research</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">Continuous development,
+                  testing and deployment integration for cloud services ready
+                  deployment. Customized trading strategies with ML and AI</div>
+              </div>
+            </div>
+          </div>
+          <div class="hidden"
+            id="settings" role="tabpanel"
+            aria-labelledby="settings-tab">
+            <div class="grid sm:grid-cols-2 gap-10 lg:gap-20">
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">01.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Software
+                    Development</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">Manane multiple accounts,
+                  across multiple exchanges in one robust GUI</div>
+              </div>
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">02.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Machine
+                    Learning
+                    <span class="opacity-20">and</span> AI Research</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">Cloud services hosting
+                  integration deployment
+                  Customized dashboards and extensions</div>
+              </div>
+            </div>
+          </div>
+          <div class="hidden"
+            id="contacts" role="tabpanel"
+            aria-labelledby="contacts-tab">
+            <div class="grid sm:grid-cols-2 gap-10 lg:gap-20">
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">01.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Software
+                    Development</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">Use advanced machine
+                  learning and Artificial intelligence algorithms to
+                  systematically execute and manage portfolios</div>
+              </div>
+              <div>
+                <div class="py-3 border-b border-black border-opacity-10">
+                  <div class="text-5xl font-bold">02.</div>
+                  <div class="mt-1 text-sm font-extrabold uppercase">Machine
+                    Learning
+                    <span class="opacity-20">and</span> AI Research</div>
+                </div>
+                <div class="py-3 text-2xl font-bold text-primary-dark">Continuous testing and
+                  research of execution algorithms and portfolio optimization
+                  techniques</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 4 -->
+      <div class="py-28 bg-[#272727]">
+        <div class="container mx-auto px-5 sm:px-0">
+          <div class="flex flex-col gap-3">
+            <p class="uppercase text-sm font-extrabold font-body text-white">ecosystem</p>
+            <div>
+              <p
+                class="capitalize text-5xl font-medium font-headling text-white">
+                main sequence
+              </p>
+              <p
+                class="capitalize text-5xl font-medium font-headling text-white leading-[64px]">
+                ecosystem
+              </p>
+            </div>
+            <p
+              class="font-body text-3xl font-semibold leading-8 text-medium-gray">
+              A modular approach that brings a direct impact exactly <br />
+              where you need it the most
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="py-10 sm:py-14">
+        <div class="relative container mx-auto">
+          <ul class="flex min-[1770px]:hidden justify-center items-center z-10"
+            id="default-tab"
+            data-tabs-toggle="#default-tab-content" role="tablist">
+            <li
+              class="w-full h-[2px] mx-auto bg-gradient-to-l from-zinc-300 to-white"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab mx-2 p-2 sm:1p-4 border rounded-full"
+                id="ecosystem-1-tab" data-tabs-target="#ecosystem-1"
+                type="button" role="tab" aria-controls="ecosystem-1"
+                aria-selected="false">
+                <img src="./assets/ecosystem-1.svg"
+                  class="min-w-[30px] md:min-w-[56px]" />
+              </button>
+            </li>
+            <li
+              class="min-w-[10px] sm:w-[30px] sm:min-w-[30px] h-[2px] mx-auto bg-black bg-opacity-10"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab mx-2 p-2 sm:p-4 border rounded-full"
+                id="ecosystem-2-tab" data-tabs-target="#ecosystem-2"
+                type="button" role="tab" aria-controls="ecosystem-2"
+                aria-selected="false">
+                <img src="./assets/ecosystem-2.svg"
+                  class="min-w-[30px] md:min-w-[56px]" />
+              </button>
+            </li>
+            <li
+              class="min-w-[10px] sm:w-[30px] sm:min-w-[30px] h-[2px] mx-auto bg-black bg-opacity-10"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab mx-2 p-2 sm:p-4 border rounded-full"
+                id="ecosystem-3-tab" data-tabs-target="#ecosystem-3"
+                type="button" role="tab" aria-controls="ecosystem-3"
+                aria-selected="false">
+                <img src="./assets/ecosystem-3.svg"
+                  class="min-w-[30px] md:min-w-[56px]" />
+              </button>
+            </li>
+            <li
+              class="min-w-[10px] sm:w-[30px] sm:min-w-[30px] h-[2px] mx-auto bg-black bg-opacity-10"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab mx-2 p-2 sm:p-4 border rounded-full"
+                id="ecosystem-4-tab" data-tabs-target="#ecosystem-4"
+                type="button" role="tab" aria-controls="ecosystem-4"
+                aria-selected="false">
+                <img src="./assets/ecosystem-4.svg"
+                  class="min-w-[30px] md:min-w-[56px]" />
+              </button>
+            </li>
+            <li
+              class="w-full h-[2px] mx-auto bg-gradient-to-r from-zinc-300 to-white">
+            </li>
+          </ul>
+          <ul
+            class="absolute hidden min-[1770px]:grid top-[-368px] -left-28 justify-center z-10"
+            id="default-tab"
+            data-tabs-toggle="#default-tab-content" role="tablist">
+            <li
+              class="w-[2px] h-[300px] mx-auto bg-gradient-to-t from-neutral-700 to-[#272727]"></li>
+            <li
+              class="w-[26px] h-[26px] mx-auto rounded-full border-[3px] border-white bg-[#969696] shadow-[1px_2px_85px_48px_rgba(255,255,255,0.44)]">
+            </li>
+            <li
+              class="w-[2px] h-[80px] mx-auto bg-black bg-opacity-10"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab my-2 p-4 border rounded-full"
+                id="ecosystem-1-tab" data-tabs-target="#ecosystem-1"
+                type="button" role="tab" aria-controls="ecosystem-1"
+                aria-selected="false">
+                <img src="./assets/ecosystem-1.svg" />
+              </button>
+            </li>
+            <li
+              class="w-[2px] h-[50px] mx-auto bg-black bg-opacity-10"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab my-2 p-4 border rounded-full"
+                id="ecosystem-2-tab" data-tabs-target="#ecosystem-2"
+                type="button" role="tab" aria-controls="ecosystem-2"
+                aria-selected="false">
+                <img src="./assets/ecosystem-2.svg" />
+              </button>
+            </li>
+            <li
+              class="w-[2px] h-[50px] mx-auto bg-black bg-opacity-10"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab my-2 p-4 border rounded-full"
+                id="ecosystem-3-tab" data-tabs-target="#ecosystem-3"
+                type="button" role="tab" aria-controls="ecosystem-3"
+                aria-selected="false">
+                <img src="./assets/ecosystem-3.svg" />
+              </button>
+            </li>
+            <li
+              class="w-[2px] h-[50px] mx-auto bg-black bg-opacity-10"></li>
+            <li role="presentation">
+              <button class="ecosystem-tab my-2 p-4 border rounded-full"
+                id="ecosystem-4-tab" data-tabs-target="#ecosystem-4"
+                type="button" role="tab" aria-controls="ecosystem-4"
+                aria-selected="false">
+                <img src="./assets/ecosystem-4.svg" />
+              </button>
+            </li>
+            <li
+              class="w-[2px] h-[200px] mx-auto bg-gradient-to-b from-zinc-300 to-white">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="ecosystem-tab-content">
+        <div class="hidden"
+          id="ecosystem-1" role="tabpanel"
+          aria-labelledby="ecosystem-1-tab">
+          <div class="container mx-auto px-5 sm:px-0">
+            <div>
+              <h2 class="font-headling text-5xl font-medium text-center sm:text-left text-primary-dark">Virtual
+                Asset Manager</h2>
+              <h3
+                class="font-body mt-2 text-sm font-extrabold uppercase text-center sm:text-left">Software
+                Development</h3>
+              <div class="grid lg:grid-cols-2 mt-12 gap-5">
+                <div class="py-12 px-6 border border-black border-opacity-10">
+                  <div class="flex pb-8 gap-3">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="font-body text-2xl font-medium text-dark-gray">Everything you need to
+                      manage
+                      a multi-account and
+                      multi-exchange investment manager virtually.</p>
+                  </div>
+                  <div
+                    class="flex gap-3 py-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="font-body text-2xl font-medium text-dark-gray">GUI with obsessive
+                      monitoring
+                      detail. From account holdings by virtual funds to every
+                      single
+                      order systematically placed. All in one unified platform</p>
+                  </div>
+                  <div
+                    class="flex gap-3 pt-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="font-body text-2xl font-medium text-dark-gray">A well document api to
+                      access
+                      your VAM and customize regulatory requirements, custom
+                      reports
+                      or integrations with your software architecture</p>
+                  </div>
+                </div>
+                <div class="p-8 bg-black bg-opacity-[0.04]">
+                  <img src="./assets/virtual-asset.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden"
+          id="ecosystem-2" role="tabpanel"
+          aria-labelledby="ecosystem-2-tab">
+          <div class="container mx-auto px-5 sm:px-0">
+            <div>
+              <h2 class="font-headling text-5xl font-medium text-center sm:text-left">TDAG</h2>
+              <h3
+                class="font-body mt-2 text-sm font-extrabold uppercase text-center sm:text-left">SOFTWARE
+                PROGRAM</h3>
+              <div class="font-body grid lg:grid-cols-2 mt-12 gap-5">
+                <div class="py-12 px-6 border border-black border-opacity-10">
+                  <div class="flex pb-8 gap-3">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">Everything you need to
+                      manage a multi-account and multi-exchange investment
+                      manager virtually.</p>
+                  </div>
+                  <div
+                    class="flex gap-3 py-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">GUI with obsessive
+                      monitoring detail. From account holdings by virtual funds
+                      to every single order systematically placed. All in one
+                      unified platform</p>
+                  </div>
+                  <div
+                    class="flex gap-3 pt-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">A well document api to
+                      access your VAM and customize regulatory requirements,
+                      custom reports or integrations with your software
+                      architecture</p>
+                  </div>
+                </div>
+                <div class="p-8 bg-black bg-opacity-[0.04]">
+                  <img src="./assets/tdag.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden"
+          id="ecosystem-3" role="tabpanel"
+          aria-labelledby="ecosystem-3-tab">
+          <div class="container mx-auto px-5 sm:px-0">
+            <div>
+              <h2 class="font-headling text-5xl font-medium text-center sm:text-left">Execution
+                Engine</h2>
+              <h3
+                class="font-body mt-2 text-sm font-extrabold uppercase text-center sm:text-left">SOFTWARE
+                PROGRAM</h3>
+              <div class="font-body grid lg:grid-cols-2 mt-12 gap-5">
+                <div class="py-12 px-6 border border-black border-opacity-10">
+                  <div class="flex pb-8 gap-3">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">Everything you need to
+                      manage
+                      a multi-account and
+                      multi-exchange investment manager virtually.</p>
+                  </div>
+                  <div
+                    class="flex gap-3 py-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">GUI with obsessive
+                      monitoring
+                      detail. From account holdings by virtual funds to every
+                      single
+                      order systematically placed. All in one unified platform</p>
+                  </div>
+                  <div
+                    class="flex gap-3 pt-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">A well document api to
+                      access
+                      your VAM and customize regulatory requirements, custom
+                      reports
+                      or integrations with your software architecture</p>
+                  </div>
+                </div>
+                <div class="p-8 bg-black bg-opacity-[0.04]">
+                  <img src="./assets/virtual-asset.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden"
+          id="ecosystem-4" role="tabpanel"
+          aria-labelledby="ecosystem-4-tab">
+          <div class="container mx-auto px-5 sm:px-0">
+            <div>
+              <h2 class="font-headling text-5xl font-medium text-center sm:text-left">Jarvis</h2>
+              <h3
+                class="font-body mt-2 text-sm font-extrabold uppercase text-center sm:text-left">SOFTWARE
+                PROGRAM</h3>
+              <div class="font-body grid lg:grid-cols-2 mt-12 gap-5">
+                <div class="py-12 px-6 border border-black border-opacity-10">
+                  <div class="flex pb-8 gap-3">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">Everything you need to
+                      manage
+                      a multi-account and
+                      multi-exchange investment manager virtually.</p>
+                  </div>
+                  <div
+                    class="flex gap-3 py-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">GUI with obsessive
+                      monitoring
+                      detail. From account holdings by virtual funds to every
+                      single
+                      order systematically placed. All in one unified platform</p>
+                  </div>
+                  <div
+                    class="flex gap-3 pt-8 border-t border-black border-opacity-10">
+                    <img src="./assets/arrow-right.svg" class="w-6 min-w-6 h-9" />
+                    <p class="text-2xl font-medium text-dark-gray">A well document api to
+                      access
+                      your VAM and customize regulatory requirements, custom
+                      reports
+                      or integrations with your software architecture</p>
+                  </div>
+                </div>
+                <div class="p-8 bg-black bg-opacity-[0.04]">
+                  <img src="./assets/virtual-asset.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex container mx-auto pt-10 pb-16 sm:pb-32 justify-center lg:justify-start">
+        <div class="font-body text-2xl font-semibold border-b border-black cursor-pointer text-dark-gray">Learn
+          more</div></div>
+
+      <!-- section 5 -->
+      <div class="py-28 bg-[#272727]">
+        <div class="container mx-auto px-5 sm:px-0">
+          <div class="flex flex-col gap-3">
+            <p class="uppercase text-sm font-extrabold font-body text-white">ecosystem</p>
+            <div>
+              <p
+                class="capitalize text-5xl font-medium font-headling text-white">
+                main sequence
+              </p>
+              <p
+                class="capitalize text-5xl font-medium font-headling text-white leading-[64px]">
+                ecosystem
+              </p>
+            </div>
+            <p
+              class="font-body text-3xl font-semibold leading-8 text-medium-gray">
+              A modular approach that brings a direct impact exactly <br />
+              where you need it the most
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="relative container mx-auto">
+          <ul class="absolute grid top-[-312px] -left-20 justify-center z-10"
+            id="default-tab"
+            data-tabs-toggle="#default-tab-content" role="tablist">
+            <li
+              class="w-[2px] h-[300px] mx-auto bg-gradient-to-t from-neutral-700 to-[#272727]"></li>
+            <li
+              class="w-[26px] h-[26px] mx-auto rounded-full border-[3px] border-white bg-[#969696] shadow-[1px_2px_85px_48px_rgba(255,255,255,0.44)]">
+            </li>
+          </ul>
+        </div></div>
+      <!-- section 6 -->
+      <div>
+        <div class="mobile:pt-12 desktop:pt-52 pb-28">
+          <div class="mb-8">
+            <p
+              class="uppercase text-sm font-extrabold font-body text-center mb-2">
+              that's not all
+            </p>
+            <div class="font-headling text-center">
+              <p class="text-5xl leading-[64px]">Discover more</p>
+              <p
+                class="text-5xl bg-[linear-gradient(90.67deg,#8AB4F8_39.32%,#373535_61.7%)] bg-clip-text text-transparent">
+                Features!
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-4 justify-center mobile:px-8">
+            <!-- card 01 -->
+            <div
+              class="block border max-w-sm px-10 py-9 border-t-4 border-t-medium-gray">
+              <div class="mb-10"><img src="./assets/mail.svg" /></div>
+              <div class="font-body font-extrabold uppercase">contact us</div>
+              <hr class="h-[2px] my-5 bg-gray-200 border-0" />
+              <div class="font-body font-semibold text-sm text-[#141416]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text
+                ever since the 1500s
+              </div>
+            </div>
+            <div
+              class="block border max-w-sm px-10 py-9 border-t-4 border-t-medium-gray">
+              <div class="mb-10"><img src="./assets/use-cases.svg" /></div>
+              <div class="font-body font-extrabold uppercase">contact us</div>
+              <hr class="h-[2px] my-5 bg-gray-200 border-0" />
+              <div class="font-body font-semibold text-sm text-[#141416]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text
+                ever since the 1500s
+              </div>
+            </div>
+            <div
+              class="block border max-w-sm px-10 py-9 border-t-4 border-t-medium-gray">
+              <div class="mb-10"><img src="./assets/pricing.svg" /></div>
+              <div class="font-body font-extrabold uppercase">contact us</div>
+              <hr class="h-[2px] my-5 bg-gray-200 border-0" />
+              <div class="font-body font-semibold text-sm text-[#141416]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text
+                ever since the 1500s
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 7: social-->
+      <div class="bg-[#272727]">
+        <div class="container mx-auto flex justify-between py-16 flex-wrap">
+          <div>
+            <div class="flex items-center flex-shrink-0 text-black mr-6 mb-6">
+              <img src="./assets/brand-light.svg" />
+            </div>
+            <p class="text-white font-body leading-6 mb-6">
+              That helps investment management<br />firms revolutionize their
+              approach to<br />
+              investment by
+            </p>
+            <button
+              class="capitalize rounded-full bg-dark-gray text-white py-[14px] px-[28px] font-medium font-body">
+              learn more
+            </button>
+          </div>
+
+          <div class="text-white font-body">
+            <div
+              class="grid desktop:grid-cols-5 desktop:gap-4 tablet:grid-cols-5">
+              <div class="p-4 flex flex-col gap-4 text-light-gray">
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+              </div>
+              <div class="p-4 flex flex-col gap-4 text-light-gray">
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+              </div>
+              <div class="p-4 flex flex-col gap-4 text-light-gray">
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+              </div>
+              <div class="p-4 flex flex-col gap-4 text-light-gray">
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+              </div>
+              <div class="p-4 flex flex-col gap-4 text-light-gray">
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+                <div>Menu item</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- section 8: footer -->
+      <footer class="bg-dark-gray py-8">
+        <div
+          class="container mx-auto flex desktop:justify-between tablet:justify-between flex-wrap gap-5 mobile:justify-center">
+          <div class="flex gap-4 text-light-gray font-body">
+            <div>Menu Item</div>
+            <div>Menu Item</div>
+            <div>Menu Item</div>
+            <div>Menu Item</div>
+          </div>
+          <div class="flex gap-5">
+            <div class="w-5 h-5 bg-gray-500 rounded-full"></div>
+            <div class="w-5 h-5 bg-gray-500 rounded-full"></div>
+            <div class="w-5 h-5 bg-gray-500 rounded-full"></div>
+            <div class="w-5 h-5 bg-gray-500 rounded-full"></div>
+            <div class="w-5 h-5 bg-gray-500 rounded-full"></div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>

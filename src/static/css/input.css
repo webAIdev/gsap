@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* @font-face {
+    font-family: "NeueMontreal";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./fonts/neue-montreal/NeueMontreal-Medium.woff2") format("woff2");
+  } */
+  @font-face {
+    font-family: "NeueMontreal";
+    src: url("./fonts/neue-montreal/PPNeueMontreal-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: oblique;
+  }
+  @font-face {
+    font-family: "NeueMontreal";
+    src: url("./fonts/neue-montreal/PPNeueMontreal-Italic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "NeueMontreal";
+    src: url("./fonts/neue-montreal/PPNeueMontreal-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: oblique;
+  }
+  
+  
+}
+
+.bg-gradient-text {
+  background: linear-gradient(99.36deg, #8ab4f8 -0.84%, #373535 72.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.shadow-circle {
+  box-shadow: -7px -1px 400px 36px rgba(255, 255, 255, 0.44);
+  -webkit-box-shadow: -7px -1px 400px 36px rgba(255, 255, 255, 0.44);
+  -moz-box-shadow: -7px -1px 400px 36px rgba(255, 255, 255, 0.44);
+}
+.ecosystem-tab[aria-selected="false"] {
+  filter: grayscale(100%);
+  border: 1px solid transparent;
+}
+.default-tab-btn[aria-selected="true"] {
+  color: #000000 !important;
+  font-weight: 700;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

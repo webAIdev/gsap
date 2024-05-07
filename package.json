@@ -1,0 +1,22 @@
+{
+  "name": "publicfetailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css-watch": "npx tailwindcss -i ./src/static/css/input.css -o ./src/custom/pages/output.css --watch",
+    "build-css": "npx tailwindcss -i ./src/static/css/input.css -o ./src/custom/pages/output.css",
+    "lite": "lite-server",
+    "start": "npm run build-css && npm run lite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  }
+}
